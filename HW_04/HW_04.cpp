@@ -282,6 +282,7 @@ int main() {
             {
             case 1:
             {
+                // 책 제목으로 대여하기
                 string title;
                 cout << "대여할 책 제목 : ";
                 cin.ignore();   // 이전 입력의 잔여 버퍼를 제거
@@ -299,6 +300,7 @@ int main() {
             }                
             case 2:
             {
+                // 책 저자로 대여하기
                 string author;
                 cout << "대여할 책 제목 : ";
                 cin.ignore();   // 이전 입력의 잔여 버퍼를 제거
