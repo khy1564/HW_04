@@ -71,16 +71,16 @@ public:
         }
     }
 
-    // 책 제목 검색 메서드
+    //// 책 제목 검색 메서드
     //void searchByTitle(const string& title)
     //{
     //    bool OX = false;
     //    cout << "책 제목으로 검색한 결과 :" << endl;
-    //    for (size_t i = 0; i < books.size(); i++)
+    //    for (const auto& book : books)
     //    {
-    //        if (books[i].title == title)
-    //        {                
-    //            cout << "- " << books[i].title << " by " << books[i].author << endl;
+    //        if (book.title == title)
+    //        {
+    //            cout << "- " << book.title << " by " << book.author << endl;
     //            OX = true;
     //        }
     //    }
@@ -95,11 +95,11 @@ public:
     //{
     //    bool OX = false;
     //    cout << "책 저자로 검색한 결과 :" << endl;
-    //    for (size_t i = 0; i < books.size(); i++)
+    //    for (const auto& book : books)
     //    {
-    //        if (books[i].author == author)
-    //        {                
-    //            cout << "- " << books[i].title << " by " << books[i].author << endl;
+    //        if (book.author == author)
+    //        {
+    //            cout << "- " << book.title << " by " << book.author << endl;
     //            OX = true;
     //        }
     //    }
