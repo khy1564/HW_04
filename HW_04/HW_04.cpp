@@ -74,39 +74,31 @@ public:
     //// 책 제목 검색 메서드
     //void searchByTitle(const string& title)
     //{
-    //    bool OX = false;
     //    cout << "책 제목으로 검색한 결과 :" << endl;
     //    for (const auto& book : books)
     //    {
     //        if (book.title == title)
     //        {
     //            cout << "- " << book.title << " by " << book.author << endl;
-    //            OX = true;
+    //            return;
     //        }
     //    }
-    //    if (!OX)
-    //    {
-    //        cout << "검색 결과가 없습니다." << endl;
-    //    }        
+    //    cout << "검색 결과가 없습니다." << endl;   
     //}
     //
     //// 책 저자 검색 메서드
     //void searchByAuthor(const string& author)
     //{
-    //    bool OX = false;
     //    cout << "책 저자로 검색한 결과 :" << endl;
     //    for (const auto& book : books)
     //    {
     //        if (book.author == author)
     //        {
     //            cout << "- " << book.title << " by " << book.author << endl;
-    //            OX = true;
+    //            return;
     //        }
     //    }
-    //    if (!OX)
-    //    {
-    //        cout << "검색 결과가 없습니다." << endl;
-    //    }
+    //    cout << "검색 결과가 없습니다." << endl;
     //    
     //}
 
@@ -197,6 +189,7 @@ int main() {
     // 도서관 관리 프로그램의 기본 메뉴를 반복적으로 출력하여 사용자 입력을 처리합니다.
     // 프로그램 종료를 선택하기 전까지 계속 동작합니다.
     while (true) {
+
         cout << "\n도서관 관리 프로그램" << endl;
         cout << "1. 책 추가" << endl; // 책 정보를 입력받아 책 목록에 추가
         cout << "2. 모든 책 출력" << endl; // 현재 책 목록에 있는 모든 책 출력
